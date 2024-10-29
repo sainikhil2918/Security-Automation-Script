@@ -1,0 +1,14 @@
+2024-10-29 08:00:01 - INFO - User 'john.doe' logged in successfully from IP 192.168.1.101
+2024-10-29 08:10:22 - INFO - User 'admin' logged in successfully from IP 172.16.5.23
+2024-10-29 09:15:45 - WARNING - Failed login attempt for user 'john.doe' from IP 10.0.0.45
+2024-10-29 09:16:32 - WARNING - Failed login attempt for user 'admin' from IP 192.168.0.200
+2024-10-29 10:22:00 - CRITICAL - Unauthorized access attempt detected from IP 192.168.0.10
+2024-10-29 11:30:45 - CRITICAL - Malware detected on device at IP 172.16.1.20
+2024-10-29 12:01:10 - ALERT - Multiple failed login attempts detected from IP 203.0.113.15
+2024-10-29 12:03:22 - ALERT - Possible brute-force attack detected from IP 203.0.113.15
+2024-10-29 13:05:50 - INFO - VPN connection established for user 'alice' from IP 10.1.1.3
+2024-10-29 13:20:00 - INFO - VPN connection terminated for user 'alice' from IP 10.1.1.3
+2024-10-29 14:02:30 - ERROR - Disk space running low on server 'FileServer1'
+2024-10-29 14:15:40 - ERROR - Memory usage high on device at IP 192.168.1.150
+2024-10-29 15:45:00 - ALERT - Firewall blocked access attempt from IP 203.0.113.7 to port 22
+2024-10-29 16:00:00 - ALERT - Unauthorized port scanning attempt detected from IP 203.0.113.7
