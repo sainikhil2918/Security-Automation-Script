@@ -69,8 +69,10 @@ By default, the script reads example_log.txt in the sample_logs folder. To analy
 edit the filename in the script's load_logs() function, or modify the script to accept filenames as command-line arguments.
 
 ## Customization
-# In filter_logs()
+
+## In filter_logs()
 failed_login_pattern = re.compile(r"failed login", re.IGNORECASE)
+
 ## Sample Output
 Filtered Logs:
 2024-10-29 09:15:45 - WARNING - Failed login attempt for user 'john.doe' from IP 10.0.0.45
@@ -92,12 +94,14 @@ Filtered Logs:
    git clone https://github.com/sainikhil2918/Security-Automation-Script.git
    cd Security-Automation-Script
 2. **Create and Activate a Virtual Environment**:
-python3 -m venv env
+   python3 -m venv env
+   
 # Activate the environment
-# On Windows
-.\env\Scripts\activate
-# On macOS/Linux
-source env/bin/activate
+   ## On Windows
+      .\env\Scripts\activate
+   ## On macOS/Linux
+      source env/bin/activate
+      
 **3.Install Dependencies**:
 pip install -r requirements.txt
 
