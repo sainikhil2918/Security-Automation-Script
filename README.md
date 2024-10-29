@@ -28,12 +28,14 @@ The Security Automation Script is a tool designed to help security analysts quic
    cd Security-Automation-Script
 2. **Create and Activate a Virtual Environment**:
 
-      macOS/Linux:
+   macOS/Linux:
       python3 -m venv env
       source env/bin/activate
-      Windows:
+
+   Windows:
       python -m venv env
       .\env\Scripts\activate
+   
 3.**Install Dependencie**:
       pip install -r requirements.txt
 
